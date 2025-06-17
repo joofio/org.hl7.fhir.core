@@ -22,7 +22,7 @@ msgstr "O elemento em {0} define o corte {1} mas depois um elemento no corte {2}
 # Adding_wrong_path
 #: Adding_wrong_path
 #, fuzzymsgid "Adding wrong path"
-msgstr "Adicionar caminho errado"
+msgstr "A adicionar caminho errado"
 
 # Adding_wrong_path__outcomegetPath___resultPathBase__
 #: Adding_wrong_path__outcomegetPath___resultPathBase__
@@ -42,7 +42,7 @@ msgstr "Recomendação de boas práticas: Em geral, todas as observações devem
 # All_observations_should_have_a_subject
 #: All_observations_should_have_a_subject
 #, fuzzymsgid "Best Practice Recommendation: In general, all observations should have a subject"
-msgstr "Recomendação de boas práticas: De um modo geral, todas as observações devem ter um tema"
+msgstr "Recomendação de boas práticas: De um modo geral, todas as observações devem ter um sujeito"
 
 # All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod
 #: All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod
@@ -72,12 +72,12 @@ msgstr "Tentativa de utilizar um instantâneo no perfil ''{0}'' como {1} antes d
 # BINDING_ADDITIONAL_D
 #: BINDING_ADDITIONAL_D
 #, fuzzymsgid "{0} specified in an additional binding"
-msgstr "{0} especificado numa ligação adicional"
+msgstr "{0} especificado num vínculo adicional"
 
 # BINDING_ADDITIONAL_UC
 #: BINDING_ADDITIONAL_UC
 #, fuzzymsgid "{0} specified in an additional binding which applies because {1}"
-msgstr "{0} especificado numa ligação adicional que se aplica porque {1}"
+msgstr "{0} especificado num vínculo adicional que se aplica porque {1}"
 
 # BINDING_ADDITIONAL_USAGE
 #: BINDING_ADDITIONAL_USAGE
@@ -87,17 +87,17 @@ msgstr "{0} = {1}"
 # BINDING_MAX
 #: BINDING_MAX
 #, fuzzymsgid "{0} specified in the max binding"
-msgstr "{0} especificado na ligação máxima"
+msgstr "{0} especificado no vínculo máximo"
 
 # BUNDLE_BUNDLE_ENTRY_FOUND_MULTIPLE
 #: BUNDLE_BUNDLE_ENTRY_FOUND_MULTIPLE
 #, fuzzymsgid "Found {0} matches for ''{1}'' in the bundle ({2})"
-msgstr "Encontrou {0} correspondências para ''{1}'' no pacote ({2})"
+msgstr "Encontrou {0} correspondências para ''{1}'' no bundle ({2})"
 
 # BUNDLE_BUNDLE_ENTRY_FOUND_MULTIPLE_FRAGMENT
 #: BUNDLE_BUNDLE_ENTRY_FOUND_MULTIPLE_FRAGMENT
 #, fuzzymsgid "Found {0} matches for fragment {2} in resource ''{1}'' in the bundle ({3})"
-msgstr "Encontrámos {0} correspondências para o fragmento {2} no recurso ''{1}'' no pacote ({3})"
+msgstr "Encontrámos {0} correspondências para o fragmento {2} no recurso ''{1}'' no bundle ({3})"
 
 # BUNDLE_BUNDLE_ENTRY_FULLURL_REQUIRED
 #: BUNDLE_BUNDLE_ENTRY_FULLURL_REQUIRED
@@ -130,7 +130,7 @@ msgstr[1] ""
 #: BUNDLE_BUNDLE_ENTRY_NOTFOUND_FRAGMENT
 #, fuzzymsgctxt "BUNDLE_BUNDLE_ENTRY_NOTFOUND_FRAGMENT"
 msgid "Can''t find ''{0}'' in the bundle ({1})"
-msgstr "Não é possível encontrar ''{0}'' no pacote ({1})"
+msgstr "Não é possível encontrar ''{0}'' no bundle ({1})"
 
 # BUNDLE_BUNDLE_ENTRY_REVERSE_MSG
 #: BUNDLE_BUNDLE_ENTRY_REVERSE_MSG
@@ -140,22 +140,22 @@ msgstr "A entrada {0} não pode ser acedida através da passagem para a frente a
 # BUNDLE_BUNDLE_ENTRY_REVERSE_R4
 #: BUNDLE_BUNDLE_ENTRY_REVERSE_R4
 #, fuzzymsgid "Entry {0} isn''t reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)"
-msgstr "A entrada {0} não é alcançável através da passagem para a frente a partir da Composição. Apenas a Proveniência está aprovada para ser utilizada desta forma (R4 secção 3.3.1)"
+msgstr "A entrada {0} não é alcançável através da passagem para a frente a partir da Composition. Apenas Provenance está aprovado para ser utilizado desta forma (R4 secção 3.3.1)"
 
 # BUNDLE_BUNDLE_ENTRY_REVERSE_R5
 #: BUNDLE_BUNDLE_ENTRY_REVERSE_R5
 #, fuzzymsgid "Entry {0} isn''t reachable by traversing forwards from the Composition. Check whether this should be linked directly from the composition if it''s a source of narrative content"
-msgstr "A entrada {0} não pode ser acedida através de uma passagem para a frente a partir da composição. Verificar se esta deve ser ligada diretamente a partir da composição se for uma fonte de conteúdo narrativo"
+msgstr "A entrada {0} não pode ser acedida através de uma passagem para a frente a partir da Composition. Verificar se esta deve ser ligada diretamente a partir da Composition se for uma fonte de conteúdo narrativo"
 
 # BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU
 #: BUNDLE_BUNDLE_POSSIBLE_MATCH_NO_FU
 #, fuzzymsgid "Entry {0} matches the reference {1} by type and id but it does not match the full target URL {2} by Bundle resolution rules"
-msgstr "A entrada {0} corresponde à referência {1} por tipo e id, mas não corresponde ao URL de destino completo {2} pelas regras de resolução de pacotes"
+msgstr "A entrada {0} corresponde à referência {1} por tipo e id, mas não corresponde ao URL de destino completo {2} pelas regras de resolução do bundle"
 
 # BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU
 #: BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU
 #, fuzzymsgid "Entry {0} matches the reference {1} by type and id but it''s fullUrl {2} does not match the full target URL {3} by Bundle resolution rules"
-msgstr "A entrada {0} corresponde à referência {1} por tipo e id, mas o seu URL completo {2} não corresponde ao URL de destino completo {3} pelas regras de resolução de pacotes"
+msgstr "A entrada {0} corresponde à referência {1} por tipo e id, mas o seu URL completo {2} não corresponde ao URL de destino completo {3} pelas regras de resolução do bundle"
 
 # BUNDLE_ENTRY_URL_ABSOLUTE
 #: BUNDLE_ENTRY_URL_ABSOLUTE
@@ -200,7 +200,7 @@ msgstr "A referência da folha de estilo não é uma ligação resolúvel"
 # BUNDLE_LINK_STYELSHEET_NOT_FOUND
 #: BUNDLE_LINK_STYELSHEET_NOT_FOUND
 #, fuzzymsgid "The stylesheet reference could not be resolved in this bundle"
-msgstr "Não foi possível resolver a referência da folha de estilos neste pacote"
+msgstr "Não foi possível resolver a referência da folha de estilos neste bundle"
 
 # BUNDLE_LINK_UNKNOWN
 #: BUNDLE_LINK_UNKNOWN
@@ -210,7 +210,7 @@ msgstr "O tipo de relação de ligação ''{0}'' é desconhecido e não é permi
 # BUNDLE_POSSSIBLE_MATCHES
 #: BUNDLE_POSSSIBLE_MATCHES
 #, fuzzymsgid "The bundle contains no match for {1} by the rules of Bundle reference resolution, but it has multiple resources that match {0} by resource type and id"
-msgstr "O pacote não contém nenhuma correspondência para {1} de acordo com as regras de resolução de referência do pacote, mas tem vários recursos que correspondem a {0} por tipo de recurso e id"
+msgstr "O bundle não contém nenhuma correspondência para {1} de acordo com as regras de resolução de referência do bundle, mas tem vários recursos que correspondem a {0} por tipo de recurso e id"
 
 # BUNDLE_RULE_INVALID_INDEX
 #: BUNDLE_RULE_INVALID_INDEX
@@ -225,17 +225,17 @@ msgstr "Nenhuma regra"
 # BUNDLE_RULE_PROFILE_UNKNOWN
 #: BUNDLE_RULE_PROFILE_UNKNOWN
 #, fuzzymsgid "Bundle Rules profile {1} is unknown for {0}"
-msgstr "O perfil {1} das regras do pacote é desconhecido para {0}"
+msgstr "O perfil {1} das regras do bundle é desconhecido para {0}"
 
 # BUNDLE_RULE_UNKNOWN
 #: BUNDLE_RULE_UNKNOWN
 #, fuzzymsgid "Bundle Rule refers to invalid resource {0}"
-msgstr "A regra do pacote refere-se a um recurso inválido {0}"
+msgstr "A regra do bundle refere-se a um recurso inválido {0}"
 
 # BUNDLE_SEARCH_ENTRY_NO_RESOURCE
 #: BUNDLE_SEARCH_ENTRY_NO_RESOURCE
 #, fuzzymsgid "SearchSet Bundle Entries must have resources"
-msgstr "As entradas do pacote SearchSet devem ter recursos"
+msgstr "As entradas do bundle SearchSet devem ter recursos"
 
 # BUNDLE_SEARCH_ENTRY_NO_RESOURCE_ID
 #: BUNDLE_SEARCH_ENTRY_NO_RESOURCE_ID
